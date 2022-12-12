@@ -39,7 +39,7 @@ int main() {
           output << line << "\n";
       }
   }
-  std::cout << (colorMode ? "\033[\n1;31mFound " : "\nFound") << count << " matches. Please see output.csv to view your updated CSV.\n"<< std::endl;
+  std::cout << (colorMode ? "\033[\n1;35mFound " : "\nFound") << count << " matches. Please see output.csv to view your updated CSV.\n"<< std::endl;
 
   // Close the files
   input.close();
